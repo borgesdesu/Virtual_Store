@@ -1,0 +1,21 @@
+{
+    "name": "borgesdesu/virtual_store",
+    "autoload": {
+        "psr-4": {
+            "Borgesdesu\\VirtualStore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Borges",
+            "email": "lucas99spfc@gmail.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^4.3",
+        "pagseguro/pagseguro-php-sdk": "^4.2",
+        "phpmailer/phpmailer": "^6.8"
+    },
+
+    "classmap" : ["model/"]
+}
